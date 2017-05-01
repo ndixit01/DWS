@@ -1,22 +1,25 @@
 body{
 	background-color: #f1f1f1;
 }
-* {
-    box-sizing: border-box;
-    -webkit-box-sizing:border-box;
-}
 .navbar-custom{
-	min-height:80px;
 	border-bottom:1px solid #c0c0c0;
 	background: #fff;
 }
-.brand{
+.navbar-brand{
 	padding: 10px 15px;
+	height:80px;
+	width:auto;
+}
+div.navbar-brand{
+	display:inline;
 }
 .navbar-item-custom > li > a{
 	color:#000;
 	transition:color .3s ease;
 	border-bottom: none;
+}
+.nav > li > a{
+	padding-top: 30px;
 }
 .navbar-item-custom > li{
 	text-align: center;
@@ -42,19 +45,16 @@ body{
 	  width: 100%; 
 	  left: 0; 
 	}
+	
 }
+
+/* Collapsed Menu Icon Style */
 
 .navbar-header > button{
-	width:60px;
-	height:60px;
-}
-
-.navbar-header > button > .glyphicon:active{
-	color: #00b9eb;
-}
+	margin: 20px;
+ }
 .navbar .navbar-toggle .icon-bar {
     background-color: black;
-
 }
 .navbar .navbar-toggle{
 	border:none;
@@ -68,6 +68,14 @@ body{
     width: 22px;
     transition: all 0.3s;
 }
+.navbar-inverse .navbar-nav > li > a:hover{
+	color:#00b9eb;
+}
+
+/*Collapsed Menu Icon Style Ends */
+
+/* Collapsed Menu Icon Style */
+
 .top-bar {
 	transform: rotate(45deg);
 	transform-origin: 10% 10%;
@@ -79,6 +87,11 @@ body{
 	transform: rotate(-45deg);
 	transform-origin: 10% 90%;
 }
+
+/* Collapsed Menu Icon Style Ends 8?
+
+/* Default Style for Collapsed Menu Item */
+
 .navbar-toggle.collapsed .top-bar{
 	transform: rotate(0);
 }
@@ -88,6 +101,29 @@ body{
 .navbar-toggle.collapsed .bottom-bar{
 	transform: rotate(0);
 }
-.navbar-inverse .navbar-nav > li > a:hover{
-	color:#00b9eb;
+
+/*Default Style for Collapsed Menu Item Ends */
+
+/* Logo Style */
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
 }
+.navbar-brand > #logo{
+	margin: 0 15px;
+	font-size: 2.0em;
+	color: #00b9eb;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.navbar-brand > #logo{		
+		font-size: 1.5em;		
+	}
+}
+@media only screen and (min-width : 321px) {
+	.navbar-brand > #logo{
+		font-size: 1.2em;
+	}
+}
+/* Logo Styling Ends */
+

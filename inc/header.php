@@ -19,7 +19,7 @@
 					<span class="icon-bar middle-bar"></span>
 					<span class="icon-bar bottom-bar"></span>
 				</button>
-				<a class="navbar-brand brand" href="#"><img class="" src="inc/images/logo.png" width="60" height="60"></a>
+				<a class="navbar-brand brand" href="#"><img class="" src="inc/images/logo.png" width="60px" height="60px"><span id="logo">Digital Work Studio</span></a>
 			</div>
 			<div class="collapse navbar-collapse" id="navHeaderCollapse">
 				<ul class="nav navbar-nav navbar-right navbar-item-custom">

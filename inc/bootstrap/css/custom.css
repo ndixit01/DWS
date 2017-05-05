@@ -1,99 +1,52 @@
 body{
 	background-color: #f1f1f1;
 }
-.navbar-custom{
+nav.navbar{
 	border-bottom:1px solid #c0c0c0;
-	background: #fff;
 }
 .navbar-brand{
-	padding: 10px 15px;
 	height:80px;
-	width:auto;
 }
-div.navbar-brand{
-	display:inline;
-}
-.navbar-item-custom > li > a{
-	color:#000;
+/* Navbar Styling Starts */
+.navbar-light .navbar-nav .nav-link{
+	color: rgba(0, 0, 0, 0.5);
 	transition:color .3s ease;
 }
-.nav > li > a{
-	padding-top: 30px;
-}
-.navbar-item-custom > li{
-	text-align: center;
-}
-.navbar-item-custom > li.active-menu{	
-	border-bottom: 2px solid #00b9eb;
-}
-.navbar-inverse .navbar-nav > li > a:focus {
-	color:#00b9eb;
-}
-.navbar-item-custom >li >a:focus{
-	color:#00b9eb;
-}
-.navbar-inverse .navbar-nav .open .dropdown-menu .divider{
-	background-color: #e5e5e5
-}
-.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover{
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:active{
 	color: #00b9eb;
+    border: none;
+    outline: none;
+}
+.navbar-toggler{
+    padding: 1.5rem 0;
+    border: none;
+    outline: none;
+}
+.navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler:hover{
+    border: none;
+    outline:none;
 }
 
-@media (min-width: 768px) {
-	.navbar-item-custom > li > a:after {    
-	  background: none repeat scroll 0 0 transparent;
-	  bottom: 0;
-	  content: "";
-	  display: block;
-	  height: 2px;
-	  left: 50%;
-	  position: absolute;
-	  background: #00b9eb;
-	  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-	  width: 0;
-	}
-	.navbar-item-custom > li > a:hover:after { 
-	  width: 100%; 
-	  left: 0; 
-	}
-	
-}
-
-ul.dropdown-menu > li{
-	text-align: center;
-}
-.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > li > a{
-	background: transparent !important;
-	color:#9d9d9d;
-	transition: color .3s ease;
-}
-.navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:active{
-	color:#00b9eb;
-	background:transparent !important;
-}
-
+/* Navbar Styling Ends */
 /* Collapsed Menu Icon Style */
-
-.navbar-header > button{
-	margin: 20px;
- }
-.navbar .navbar-toggle .icon-bar {
-    background-color: black;
+.navbar .navbar-toggler span {
+    display: block;
+    background-color: #333;
+    height: 2px;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
-.navbar .navbar-toggle{
+.navbar .navbar-toggler{
 	border:none;
 	background:transparent !important;
 }
-.navbar .navbar-toggle:hover{
+.navbar .navbar-toggle span:hover{
 	border:none;
 	background:none;
 }
  .icon-bar {
     width: 22px;
     transition: all 0.3s;
-}
-.navbar-inverse .navbar-nav > li > a:hover{
-	color:#00b9eb;
 }
 
 /*Collapsed Menu Icon Style Ends */
@@ -116,13 +69,13 @@ ul.dropdown-menu > li{
 
 /* Default Style for Collapsed Menu Item */
 
-.navbar-toggle.collapsed .top-bar{
+.navbar-toggler.collapsed .top-bar{
 	transform: rotate(0);
 }
-.navbar-toggle.collapsed .middle-bar{
+.navbar-toggler.collapsed .middle-bar{
 	opacity: 1;
 }
-.navbar-toggle.collapsed .bottom-bar{
+.navbar-toggler.collapsed .bottom-bar{
 	transform: rotate(0);
 }
 
@@ -155,7 +108,7 @@ img.custom-logo{
 }
 @media (max-width : 320px) {
 	.navbar-brand > #logo{
-		font-size: 0.8em;
+		font-size: 0.5em;
 		margin: 0 5px;
 	}
 
@@ -171,21 +124,9 @@ img.custom-logo{
 }
 /* Logo Styling Ends */
 
-
 .margin-custom{
     margin: 10px 15px;
 }
-@media (min-width: 1200px) {
-  .container {
-    width: 1600px !important;
-  }
-	.mr{
-		margin-left:30px;
-	}
-    
-}
-
-
 .sub-service{
     margin: 20px -15px;
 }
@@ -200,9 +141,41 @@ img.custom-logo{
     font-size: 17px;
 
 }
-.printer-sub-3{
-    background: url('../../images/printing/printer-1.jpg')
+.printer-sub-3-1{
+    min-height: 45%;
+    width:100%;
+    background: url('../../images/printing/printer-1.jpg') no-repeat center;
+    background-size: cover;
+}
+.printer-sub-3-2{
+    min-height:45%;
+    width:100%;
+    background:url('../../images/printing/printer-2.jpg') no-repeat center;
+    background-size: cover;
 }
 .service-container{
     height:450px;
+}
+.service-mask-head{
+    width:100%;
+    height:100%;
+}
+.service-mask{
+    width:100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.7;
+    cursor: pointer;
+    padding: none;
+    margin: none;
+    color: #fff;
+}
+.service-mask span{
+    color:#fff;
+}
+.service-mask img{
+    width: 35px;
+    height: 35px;
+    border: none;
+    outline: none;
 }

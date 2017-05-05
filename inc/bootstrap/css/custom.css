@@ -16,7 +16,6 @@ div.navbar-brand{
 .navbar-item-custom > li > a{
 	color:#000;
 	transition:color .3s ease;
-	border-bottom: none;
 }
 .nav > li > a{
 	padding-top: 30px;
@@ -24,10 +23,22 @@ div.navbar-brand{
 .navbar-item-custom > li{
 	text-align: center;
 }
-.navbar-item-custom > li > a:hover{
-	background: none;
+.navbar-item-custom > li.active-menu{	
+	border-bottom: 2px solid #00b9eb;
+}
+.navbar-inverse .navbar-nav > li > a:focus {
 	color:#00b9eb;
 }
+.navbar-item-custom >li >a:focus{
+	color:#00b9eb;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu .divider{
+	background-color: #e5e5e5
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover{
+	color: #00b9eb;
+}
+
 @media (min-width: 768px) {
 	.navbar-item-custom > li > a:after {    
 	  background: none repeat scroll 0 0 transparent;
@@ -46,6 +57,19 @@ div.navbar-brand{
 	  left: 0; 
 	}
 	
+}
+
+ul.dropdown-menu > li{
+	text-align: center;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > li > a{
+	background: transparent !important;
+	color:#9d9d9d;
+	transition: color .3s ease;
+}
+.navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:active{
+	color:#00b9eb;
+	background:transparent !important;
 }
 
 /* Collapsed Menu Icon Style */
@@ -105,25 +129,80 @@ div.navbar-brand{
 /*Default Style for Collapsed Menu Item Ends */
 
 /* Logo Style */
-
+img.custom-logo{
+	width:60px;
+	height:60px;
+}
 .navbar-brand {
   display: flex;
   align-items: center;
 }
 .navbar-brand > #logo{
 	margin: 0 15px;
-	font-size: 2.0em;
+	font-size: 1.5em;
 	color: #00b9eb;
 }
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media (max-width : 480px){
 	.navbar-brand > #logo{		
-		font-size: 1.5em;		
+		font-size: 1em;
+		margin: 0 0 0 10px;		
+	}
+
+	img.custom-logo{
+		width:50px;
+		height:50px;
 	}
 }
-@media only screen and (min-width : 321px) {
+@media (max-width : 320px) {
 	.navbar-brand > #logo{
-		font-size: 1.2em;
+		font-size: 0.8em;
+		margin: 0 5px;
 	}
+
+	img.custom-logo{
+		width:35px;
+		height:35px;
+	}
+
+	.navbar-brand{
+		padding: 0;
+	}
+
 }
 /* Logo Styling Ends */
 
+
+.margin-custom{
+    margin: 10px 15px;
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1600px !important;
+  }
+	.mr{
+		margin-left:30px;
+	}
+    
+}
+
+
+.sub-service{
+    margin: 20px -15px;
+}
+.printer-sub-1{
+    background: url('../../images/printing/studio.jpg') no-repeat center;
+    background-size: cover;
+    background-repeat: none;
+}
+.printer-sub-2{
+    margin: 0 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+
+}
+.printer-sub-3{
+    background: url('../../images/printing/printer-1.jpg')
+}
+.service-container{
+    height:450px;
+}

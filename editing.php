@@ -4,17 +4,17 @@
         <div class="col-md-6 service-container editing-sub-1 p-0 d-flex flex-row justify-content-end">
             <div class="service-mask-head editing-1">
                 <div class="service-mask">
-                    <div class="service-mask w-100 d-flex justify-content-center align-items-center flex-column" onclick="location.href='editing-gallery.php'">
+                    <div class="service-mask w-100 d-flex justify-content-center align-items-center flex-column" onclick="location.href='retouching-gallery.php'">
                         <img class="img-fluid" src="inc/images/zoom.png">
-                        <span>See Gallery</span>
+                        <span>Editing/Retouching</span>
                     </div>
                 </div>
             </div>
             <div class="service-mask-head editing-2 ml-auto">
                 <div class="service-mask">
-                    <div class="service-mask w-100 d-flex justify-content-center align-items-center flex-column" onclick="location.href='scanning-gallery.php'">
+                    <div class="service-mask w-100 d-flex justify-content-center align-items-center flex-column" onclick="location.href='food-gallery.php'">
                         <img class="img-fluid" src="inc/images/zoom.png">
-                        <span>See Gallery</span>
+                        <span>PostProduction -Food</span>
                     </div>
                 </div>
             </div>
@@ -29,7 +29,7 @@
             <div class="editing-sub-3-1">
                 <div class="service-mask-head">
                     <div class="service-mask">
-                        <div class="service-mask w-100 d-flex justify-content-center align-items-center" onclick="location.href='editing-gallery.php'">
+                        <div class="service-mask w-100 d-flex justify-content-center align-items-center" onclick="location.href='interior-gallery.php'">
                             <img src="inc/images/zoom.png">
                             <span>See Gallery</span>
                         </div>
@@ -39,7 +39,7 @@
             <div class="editing-sub-3-2">
                 <div class="service-mask-head">
                     <div class="service-mask">
-                        <div class="service-mask w-100 d-flex justify-content-center align-items-center" onclick="location.href='editing-gallery.php'">
+                        <div class="service-mask w-100 d-flex justify-content-center align-items-center" onclick="location.href='products-gallery.php'">
                             <img src="inc/images/zoom.png">
                             <span>See Gallery</span>
                         </div>

@@ -9,6 +9,7 @@
 	<link type="text/css" rel="stylesheet" href="inc/bootstrap/css/custom.css"/>
     <link type="text/css" rel="stylesheet" href="inc/bootstrap/css/bootstrap-grid.css" />
     <link type="text/css" rel="stylesheet" href="inc/bootstrap/css/bootstrap-reboot.css" />
+    <link type="text/css" rel="stylesheet" href="inc/slider/pgwslideshow.css"
 </head>
 
 <body>

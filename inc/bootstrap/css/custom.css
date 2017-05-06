@@ -124,34 +124,13 @@ img.custom-logo{
 }
 /* Logo Styling Ends */
 
+
+/*All Services Page Styling Starts */
 .margin-custom{
     margin: 10px 15px;
 }
 .sub-service{
     margin: 20px -15px;
-}
-.printer-sub-1{
-    background: url('../../images/printing/studio.jpg') no-repeat center;
-    background-size: cover;
-    background-repeat: none;
-}
-.printer-sub-2{
-    margin: 0 15px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 17px;
-
-}
-.printer-sub-3-1{
-    min-height: 45%;
-    width:100%;
-    background: url('../../images/printing/printer-1.jpg') no-repeat center;
-    background-size: cover;
-}
-.printer-sub-3-2{
-    min-height:45%;
-    width:100%;
-    background:url('../../images/printing/printer-2.jpg') no-repeat center;
-    background-size: cover;
 }
 .service-container{
     height:450px;
@@ -179,3 +158,120 @@ img.custom-logo{
     border: none;
     outline: none;
 }
+
+/*All Services Page Styling Ends */
+
+/*Printer Page Styling */
+.printer-sub-1{
+    background: url('../../images/printing/studio.jpg') no-repeat center;
+    background-size: cover;
+    background-repeat: none;
+}
+.printer-sub-2{
+    margin: 0 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+
+}
+.printer-sub-3-1{
+    min-height: 45%;
+    width:100%;
+    background: url('../../images/printing/printer-1.jpg') no-repeat center;
+    background-size: cover;
+}
+.printer-sub-3-2{
+    min-height:45%;
+    width:100%;
+    background:url('../../images/printing/printer-2.jpg') no-repeat center;
+    background-size: cover;
+}
+
+/*Printer Page Styling Ends */
+
+/*Scanning Page Styling Starts */
+.scanning-sub-1{
+    background: url('../../images/scanning/studio.jpg') no-repeat center;
+    background-size: cover;
+    background-repeat: none;
+}
+.scanning-sub-2{
+    margin: 0 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+
+}
+.scanning-sub-3-1{
+    min-height: 45%;
+    width:100%;
+    background: url('../../images/scanning/scanning-1.jpg') no-repeat center;
+    background-size: cover;
+}
+.scanning-sub-3-2{
+    min-height:45%;
+    width:100%;
+    background:url('../../images/scanning/scanning-2.jpg') no-repeat center;
+    background-size: cover;
+}
+/*Scanning Page Styling Ends */
+
+/*Editing Page Styling Starts */
+.editing-1{
+    width:48%;
+    height: 100%;
+    background: url('../../images/editing/editin-4.jpg') no-repeat center;
+    background-size: 100%;
+}
+.editing-2{
+    width:48%;
+    height: 100%;
+    background: url('../../images/editing/editin-1.jpg') no-repeat center;
+    background-size: 100%;
+}
+.editing-sub-2{
+    margin: 0 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+
+}
+.editing-sub-3-1{
+    min-height: 45%;
+    width:100%;
+    background: url('../../images/scanning/scanning-1.jpg') no-repeat center;
+    background-size: cover;
+}
+.editing-sub-3-2{
+    min-height:45%;
+    width:100%;
+    background:url('../../images/scanning/scanning-2.jpg') no-repeat center;
+    background-size: cover;
+}
+
+/*Editing Page Styling Ends */
+
+/*M&L Page Styling Starts */
+
+.mnl-sub-1{
+    background: url('../../images/mnl/studio.jpg') no-repeat center;
+    background-size: cover;
+    background-repeat: none;
+}
+.mnl-sub-2{
+    margin: 0 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+
+}
+.mnl-sub-3-1{
+    min-height: 45%;
+    width:100%;
+    background: url('../../images/mnl/mnl-1.jpg') no-repeat center;
+    background-size: cover;
+}
+.mnl-sub-3-2{
+    min-height:45%;
+    width:100%;
+    background:url('../../images/mnl/mnl-2.jpg') no-repeat center;
+    background-size: cover;
+}
+
+/*M&L Page Styling Ends */

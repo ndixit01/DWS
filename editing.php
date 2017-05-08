@@ -23,7 +23,6 @@
             <p>Don't worry about clicks after taking them. Our highly trained and experienced experts will take care of all your post-editing needs.</p>
             <p>Whether it be color correction or anything else, we will always make sure that your photos looks beautiful when you print/publish them.</p>
             <p>Our range of technologies include super/blazing fast computers with highly skilled editing team that will cater to your needs</p>
-            <p><a href="editing-gallery.php">See Gallery >></a></p>
         </div>
         <div class="col-md-3 d-flex align-content-between flex-wrap service-container">
             <div class="editing-sub-3-1">
@@ -31,7 +30,7 @@
                     <div class="service-mask">
                         <div class="service-mask w-100 d-flex justify-content-center align-items-center" onclick="location.href='interior-gallery.php'">
                             <img src="inc/images/zoom.png">
-                            <span>See Gallery</span>
+                            <span>PostProduction - Interior/Exterior</span>
                         </div>
                     </div>                    
                 </div>
@@ -41,7 +40,7 @@
                     <div class="service-mask">
                         <div class="service-mask w-100 d-flex justify-content-center align-items-center" onclick="location.href='products-gallery.php'">
                             <img src="inc/images/zoom.png">
-                            <span>See Gallery</span>
+                            <span>PostProduction - Products</span>
                         </div>
                     </div>
                 </div>
